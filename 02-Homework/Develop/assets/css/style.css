@@ -45,11 +45,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
-
+/* changed position of .hero element to follow semantic order of html */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +53,10 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
